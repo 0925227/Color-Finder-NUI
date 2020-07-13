@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <div class="searchbar" id="searchBar">
+        <div class="tags" id="tagsContainer">
+            
+        </div>
+        <input type="text" name="color" id="colorInput" autocomplete="off">
+        <!-- <button type="button" id="speechButton">Spreek</button> -->
+    </div>
+
+    <div class="container" id="colorsContainer">
+        <div class="help">
+            <h1>Color Finder</h1>
+            <p>
+                Welcome to Color Finder, this is a Speech Interface Web Application that helps you find colors based on their association with things such as objects, materials, animals, food, feelings etc..<br>
+                The App uses speech recognition to transcribe spoken words into text that are then used as 'search tags' for the colors.
+            </p>
+            <p>
+                <strong>Warning:</strong> For speech recognition to work you must use Google Chrome and allow this website to use your microphone.
+                If the searchbar has a blue color it means that speech recognition is active.
+            </p>
+            <p>
+                The commands that can be used:
+            </p>
+            <ul>
+                <li>'Tag [tag]', This will do a search for the given tag and display all the colors found.</li>
+                <li>'Show [tag]', This can be used to switch display between tags that have already been searched for.</li>
+                <li>'Remove [tag]', This will remove the given tag.</li>
+                <li>'Help', Show this text.</li>
+            </ul>
+
+            <p>
+                <strong>Note:</strong> This App was made for the educational purpose of implementing a Natural User Interface, in this case a Speech Interface. I don't think an App like this would actually be used in the real world. It uses Chrome's build in speech recognition, and the www.colr.org Api.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

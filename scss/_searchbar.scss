@@ -1,0 +1,30 @@
+.searchbar {
+    background-color: #f3f3f3;
+    transition: .2s ease;
+
+    &.active {
+        background-color: #BDE8EF;
+    }
+
+    #colorInput {
+        padding: 2rem;
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #speechButton {
+        position: absolute;
+    }
+}
+
+.tags {
+    padding: 1rem;
+
+    span {
+        background-color: #c7c7c7;
+        margin: 0 1rem;
+        padding: .4rem;
+        border-radius: 3px;
+    }
+}
